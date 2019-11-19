@@ -1,0 +1,19 @@
+plugins {
+    id "application"
+}
+repositories {
+    mavenCentral()
+}
+apply plugin: 'java'
+apply plugin: 'idea'
+sourceCompatibility = 1.8
+dependencies {
+    implementation 'org.quartz-scheduler:quartz:2.3.2'
+    implementation 'org.slf4j:slf4j-simple:1.7.29'
+}
+ext {
+    javaMainClass = "com.willy.quartz.QuartzMain"
+}
+application {
+    mainClassName = javaMainClass
+}
