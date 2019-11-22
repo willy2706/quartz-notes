@@ -16,9 +16,9 @@ You may explore:
 4. How to delete a job
 
 Output:
-1. Understand `trigger` vs `job`
+1. Understand `trigger` vs `jobdetail`
 2. Understand type of `trigger`
-3. Understand `jobdetail`
+3. Understand `jobdata`
 4. Understand jobkey and triggerkey
 5. Understand quartz's database schema
 6. Understand annotations @DisallowConcurrentExecution and @PersistJobDataAfterExecution
